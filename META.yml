@@ -1,0 +1,16 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         PPIx-Index
+version:      0.0.1_01
+version_from: lib/PPIx/Index.pm
+installdirs:  site
+requires:
+    List::MoreUtils:               0
+    Module::CoreList:              0
+    Module::Locate:                1.7
+    PPI:                           0
+    PPIx::XPath:                   0
+    Scalar::Util:                  0
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17

@@ -1,0 +1,7 @@
+lib/PPIx/Index.pm
+t/01basic.t
+Changes
+Makefile.PL
+MANIFEST
+README
+META.yml

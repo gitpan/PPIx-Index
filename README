@@ -1,0 +1,36 @@
+PPIx/Index version 0.0.1_01
+=========================
+
+Given a perl script, construct variable, subroutine and package information
+about the script and other scripts or modules it depends on. This information,
+currently, covers what and where variables, subroutines and packages are used
+and declared within their respective files. Due to the fact that this module
+performs static analysis any dynamic script/module dependencies will be
+missed.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  PPI
+  PPIx::XPath
+  Module::Locate
+  Scalar::Util
+  List::MoreUtils
+  Module::CoreList
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2005 Dan Brook
+
+This code is distributed under the same copyright terms as Perl itself.
+
